@@ -1,0 +1,122 @@
+body{
+  margin: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #f2f2f2;
+  text-align: center;
+  font-family: 'M PLUS 1 Code', sans-serif;
+  }
+  .note1{
+    text-align: left;
+    padding-top: 50px;
+  }
+ .gif{
+    display: flex;
+    justify-content: center;
+  }
+
+  img {
+    width: 250px;
+    margin: 2px;
+   padding-top: 10px;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  .banner{
+    border: .5px solid black;
+    border-radius: ;
+    background-color: rgb(128, 128, 128);
+    height: 45.5px;
+    display: flex;
+   
+    align-items: flex-start;
+    
+  }
+  .file{
+    color: #f2f2f2;
+    text-align: center;
+  }
+
+
+
+  /*This is the code for the dropdown menu, try switching some of he Html so this can happen in your header tab*/
+  .dropdown{
+    list-style: none;
+  }
+  ul:hover {
+    animation: button-hover 0.5s;
+    background-color: rgb(33, 36, 36);
+    color: rgb(128, 128, 128);
+    cursor: pointer;
+    padding-left: 5px;
+  }
+  .dropbtn {
+    background-color: rgb(128, 128, 128);
+    color: white;
+    padding: 13px;
+    font-size: 16px;
+    border: none;
+    
+   
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border: .5px solid black;
+   
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    border: .5px solid black;
+    box-shadow: inset 4px 6px 7px -5px rgba(0,0,0,1);
+  }
+
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #b5bbb8;
+    border: .2px solid black;
+    box-shadow: inset 4px 6px 7px -5px rgba(0,0,0,1);
+  }
+
+  /* End of drop down menu css code*/
+
+/* CODE FOR DANCINGBOI.HTML*/
+
+.loading1{
+  margin: 500px;
+}
+.sectionhtml{
+  text-align: left;
+  padding-right: 1000px;
+  
+}
+
+.para1{
+  padding-right: 500px;
+}
