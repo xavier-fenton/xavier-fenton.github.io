@@ -1,29 +1,29 @@
 /*PLEASE EXCUSE THIS MESS OF A CSS STYLESSHEET */
 
-/*still wrapping my head aroung media queries
-@media screen and (min-width: 320px) {
-}
-@media screen and (min-width: 768px) {
-}
-@media screen and (min-width: 1200px) {
-}
-I feel that my page isnt content rich yet, so when i do a responsive check in dev tools, it looks okay to me. I'd appreciate feedback if anyone has any.
-*/
 
-/*main content */
+
+/*========
+    1.MAIN 
+  ========*/
+
 body{
   margin: auto;
   margin-left: 50px;
   margin-right: 50px;
   background-color: #f2f2f2;
-  text-align: center;
+  poistion: static;
   font-family: 'M PLUS 1 Code', sans-serif;
   }
+
   /* blog html paragraph*/
   .note1{
     text-align: left;
     padding-top: 50px;
   }
+
+  /*======== 
+     2.IMAGES
+  ==========*/
 
   /* dancing boi */
  .gif{
@@ -41,20 +41,47 @@ body{
    padding-top: 10px;
   }
 
-  /* header 1*/
+  /*========= 
+  3.HEADERS
+  ===========*/
+
   h1{
-    text-align: center;
+    position: absolute;
+    left:243px;
+    top: 200px;
   }
+
+  h2{
+   position: absolute;
+   left: 1220px;
+   top: 205px;
+  }
+
+/*========= 
+  4.WRITING
+  ===========*/ 
+
+  .intro{
+    position: absolute;
+    right: 500px;
+    width: 500px;
+    margin-top:10px;
+  }
+
+
+/*========
+   BANNER 
+ =========*/
 
   /*Drop down menu components*/
 
+  /*BANNER AND ITS CHILDREN*/
+
   .banner{
     border: .5px solid black;
-    border-radius: ;
     background-color: rgb(128, 128, 128);
     height: 45.5px;
     display: flex;
-   
     align-items: flex-start;
     
   }
@@ -82,9 +109,9 @@ body{
     color: white;
     padding: 13px;
     font-size: 16px;
-    border: none;
-    
-   
+    border: .5px solid black;
+    position: relative;
+    top: 0;
   }
   
   .dropdown {
@@ -101,6 +128,7 @@ body{
     border: .5px solid black;
    
     z-index: 1;
+    text-align: left; /* with my understanding of position i can move this to look how i want now! */
   }
   
   .dropdown-content a {
@@ -150,10 +178,67 @@ body{
   width: 100%
 }
 
+
+@media screen and (max-width: 320px) {
+  h1{
+  position: static;
+  }
+  h2{
+    position: static;
+    }
+  .intro{
+    position: static;
+    max-width: 100%;
+  }
 }
 
+@media screen and (max-width: 768px) {
+  h1{
+    position: static;
+    }
+    h2{
+      position: static;
+      }
+      .intro{
+        position: static;
+        max-width: 100%;
+      }
+}
 
+@media screen and (min-width: 1200px) {
+  h1{
+    position: absolute;
+    }
+  h2{
+      position: absolute;
+      }
 
+  .intro{
+        position: absolute;
+      }
+}
+
+/* THIS MEDIA QUERY IS JUST FOR PERCAUTION*/
+@media screen and (max-width: 769px) {
+  h1{
+    position: static;
+    }
+    h2{
+      position: static;
+      }
+
+}
+/*^ THIS MEDIA QUERY IS JUST FOR PERCAUTION*/
+
+/*still wrapping my head aroung media queries
+@media screen and (min-width: 320px) {
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1200px) {
+}
+I feel that my page isnt content rich yet, so when i do a responsive check in dev tools, it looks okay to me. I'd appreciate feedback if anyone has any.
+*/
 
 
 
