@@ -1,3 +1,16 @@
+/*PLEASE EXCUSE THIS MESS OF A CSS STYLESSHEET */
+
+/*still wrapping my head aroung media queries
+@media screen and (min-width: 320px) {
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1200px) {
+}
+I feel that my page isnt content rich yet, so when i do a responsive check in dev tools, it looks okay to me. I'd appreciate feedback if anyone has any.
+*/
+
+/*main content */
 body{
   margin: auto;
   margin-left: 50px;
@@ -6,10 +19,13 @@ body{
   text-align: center;
   font-family: 'M PLUS 1 Code', sans-serif;
   }
+  /* blog html paragraph*/
   .note1{
     text-align: left;
     padding-top: 50px;
   }
+
+  /* dancing boi */
  .gif{
     display: flex;
     justify-content: center;
@@ -21,9 +37,12 @@ body{
    padding-top: 10px;
   }
 
+  /* header 1*/
   h1{
     text-align: center;
   }
+
+  /*Drop down menu components*/
 
   .banner{
     border: .5px solid black;
@@ -42,7 +61,8 @@ body{
 
 
 
-  /*This is the code for the dropdown menu, try switching some of he Html so this can happen in your header tab*/
+  /*This is the code for the dropdown menu, try switching some of the Html so this can happen in your header tab*/
+
   .dropdown{
     list-style: none;
   }
@@ -125,3 +145,12 @@ body{
 .overallp1{
   width: 100%
 }
+
+}
+
+
+
+
+
+
+
