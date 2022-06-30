@@ -118,8 +118,8 @@ body{
 }
 
 .para1{
-  padding-right: 500px;
+  width: 100%
 }
 .overallp1{
-  position: fixed;
+  width: 100%
 }
