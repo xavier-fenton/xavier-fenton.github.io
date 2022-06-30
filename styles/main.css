@@ -120,3 +120,6 @@ body{
 .para1{
   padding-right: 500px;
 }
+.overallp1{
+  position: fixed;
+}
