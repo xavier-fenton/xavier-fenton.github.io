@@ -31,6 +31,10 @@ body{
     justify-content: center;
     }
 
+   /* responive design ps:i thought i knew how to do something but i didnt.*/
+
+  
+
   img: not(.loading1) {
     width: 250px;
     margin: 2px;
