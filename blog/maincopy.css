@@ -1,5 +1,8 @@
 /*PLEASE EXCUSE THIS MESS OF A CSS STYLESSHEET */
-
+/* =======
+TAble of contents
+1.Main
+==========*/
 
 
 /*========
@@ -41,6 +44,9 @@ body{
    padding-top: 10px;
   }
 
+  .exampleimages{
+    max-width: 100%;
+  }
   /*========= 
   3.HEADERS
   ===========*/
@@ -62,32 +68,39 @@ body{
   ===========*/ 
 
   .intro{
-    position: relative;
+    /* position: relative;
     
    
     top: 100px;
-    left: 100px;
+    left: 100px; */
     background-color: rgb(185, 196, 185);
     width: fit-content;
     padding: 50px;
+    max-width: 100%;
+  }
+
+  .span{
+    font-weight: bold;
+    color: rgb(255, 0, 0);
   }
 .explanation{
-  position: absolute;
+  /* position: absolute;
   top: 300px;
-  left: 150px;
+  left: 150px; */
+ margin-top: 10px;
 }
 .child1{
 background-color: cyan;
-position: absolute;
+/* position: absolute;
 left: ;
-top:50px;
+top:50px; */
 }
 
 .child2{
   background-color: rgb(251, 255, 0);
 position: relative;
 top: 77px;
-left: 214px;
+/* left: 214px; */
 padding: 10px;
 width: fit-content;
 
@@ -97,7 +110,7 @@ width: fit-content;
   position: relative;
   top: 250px;
   font-weight: bold;
-  width: 500px;
+  /* width: 500px; */
 }
 
 /* ========
@@ -130,7 +143,7 @@ PARAGRAPH AND ITS CONTENTS
   font-weight: bold;
   text-decoration: underline;
   font-family: 'Courier New', Courier, monospace;
-  position: sticky;
+  /* position: sticky; */
   top: 0;
 }
 .annoying2{
@@ -138,7 +151,7 @@ PARAGRAPH AND ITS CONTENTS
 }
 
 .fixedpara{
-padding-left: 182px;
+/* padding-left: 182px; */
 }
 
 .lorem{
@@ -175,6 +188,7 @@ PARAGRAPH 2 AND ITS CONTENTS
   /*BANNER AND ITS CHILDREN*/
 
   .banner{
+    margin-bottom: 55px;
     border: .5px solid black;
     background-color: rgb(128, 128, 128);
     height: 45.5px;
@@ -290,7 +304,9 @@ PARAGRAPH 2 AND ITS CONTENTS
     position: static;
     max-width: 100%;
   }
-}
+
+  }
+
 
 @media screen and (max-width: 768px) {
   h1{
@@ -314,7 +330,7 @@ PARAGRAPH 2 AND ITS CONTENTS
       }
 
   .intro{
-        position: absolute;
+        /* position: absolute; */
       }
 }
 
