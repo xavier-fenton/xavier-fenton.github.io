@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Xavier Fenton Blog</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="maincopy.css" type="text/css">
+
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&display=swap" rel="stylesheet">
+
+  </head>
+
+<!-- PLEASE EXCUSE THIS MESS OF AN HTML-->
+    <header>
+      <nav class="banner">
+        <div class="dropdown">
+          <button class="dropbtn">File</button>
+          <div class="dropdown-content">
+            <a href="dancingboi.html">Open</a>
+            <a href="index.html">Home</a>
+            <a href="BLOG.html">Blogs</a>
+            <a href="EXPORT.html">Export .mp3</a>
+            <a href="#">Save As</a>
+    
+          </div>
+        </div>
+      </nav>
+
+    </header>
+    
+    <div class="intro">
+       I'll be attempting to explain the differnces of positions in CSS for you. Bare with me.
+
+      </div>
+
+        <div class="explanation">So you wanna know about positioning, huh?
+
+        <div class="child1">
+          I am parented to that text above, right now I have position of absolute so I can go any where on this page if I wanted to. How! you ask?
+         </div>
+
+         <div class="child2">
+          Let me try to explain.
+         </div>
+         <div class="child3">
+         What are the differences between relative, absolute, and fixed positioning?
+
+         <p class="paragraph1">
+
+          It's best to know that positioning is always static by default, meaning that it will order or follow the content to the workflow of the html. 
+          This would be the workflow of the html:
+          <div class="childtoparagraph1">
+              <.body>
+              <.div>
+              <.div>1<.div>
+              <.div>2<.div>
+              <.div>3<.div>
+              <.div>
+              <./body>
+             <br>
+             <br>
+
+             <div class="annoying">
+              On a page it will show me:
+             <p class="onetwothree">
+             1
+             2
+             3
+             </p>
+             </div>
+
+             </div>
+             <br>
+             <br>
+              This is helpful for understanding that static positioning is by default. The divs with the content, and the actual output of the content, are layed out exactly like the workflow of the html code.
+             <br>
+             <br>
+             <br>
+             <br>
+             <div class="reltitle">Relative Positioning</div>
+             <br>
+             <br>
+
+             Relative essentially acts the same as static but the difference is that it can position top,right, bottom, left. though it only acts to its parent element.
+             Looking at our HTML workflow and we add some classes:
+             <br>
+             <br>
+             <img src="images/brrr.JPG">
+             <br>
+             <br>
+             So by positioning relative to .one it will move only within our parent. THOUGH it will be moving from its workflow, essentially the space our .one has been moved is still there and is somewhat invisible, but the space that is there is reserved for its workflow. The other elements will still be in their ‘static’ position. The example below, helps to show the reserved space, and that the top of the red line is where it’s relative too (50px from the top). 
+             <br>
+             <br>
+             <img src="images/relative positioningexmple (4).png">
+             <br>
+             <br>
+
+             CSS=
+
+             .one {
+             position: relative;
+             top: 50px;
+             }
+             <br>
+             <br>
+             <img src="images/relativeright.png">
+             <br>
+             <br>
+             CSS 
+
+             .one {
+             position: relative;
+             right: 50px;
+             }
+             <br>
+             <br>
+             This is another example that it is relative to its workflow (the red outline), and that it’s 50px to the right. All the other elements are static so they are unaffected.
+             <br>
+             <br>
+        
+             </p>
+             <br>
+             <br>
+            <p class="paragraph2">
+              <!-- It's best to know that positioning is always static by default, meaning that it will order or follow the content to the workflow of the html. 
+              This would be the workflow of the html:
+              <div class="childtoparagraph1">
+                  <.body>
+                  <.div>
+                  <.div>1<.div>
+                  <.div>2<.div>
+                  <.div>3<.div>
+                  <.div>
+                  <./body>
+                 <br>
+                 <br>
+    
+                 <div class="annoying">
+                  On a page it will show me:
+                 <p class="onetwothree">
+                 1
+                 2
+                 3
+                 </p>
+                 </div>
+    
+                 </div>
+                 <br>
+                 <br>
+                  This is helpful for understanding that static positioning is by default. The divs with the content, and the actual output of the content, are layed out exactly like the workflow of the html code.
+                 <br>
+                 <br>
+                 <br>
+                 <br> -->
+                 <div class="reltitle">Absolute</div>
+                 <br>
+                 <br>
+    
+                 Absolute removes the content from the html workflow, essentially being able to move to wherever you want, specifically to the page. This keeps the other unaffected elements to stick to the workflow so it won’t affect anything around it. 
+                 <br>
+                 <br>
+                 <img src="images/absolute.JPG">
+                 <br>
+                 <br>
+                 I can move this anyway on the page as long as my parent element stays static. 
+                 <br>
+                 <br>
+                 <img src=>
+                 <br>
+                 
+    
+                 CSS: .one { position: absolute; top: 0; right: 50px; }
+                
+            
+            
+      
+            </p>
+            <br>
+            <br>
+            <p class="paragraph2">
+              <!-- It's best to know that positioning is always static by default, meaning that it will order or follow the content to the workflow of the html. 
+              This would be the workflow of the html:
+              <div class="childtoparagraph1">
+                  <.body>
+                  <.div>
+                  <.div>1<.div>
+                  <.div>2<.div>
+                  <.div>3<.div>
+                  <.div>
+                  <./body>
+                 <br>
+                 <br>
+    
+                 <div class="annoying">
+                  On a page it will show me:
+                 <p class="onetwothree">
+                 1
+                 2
+                 3
+                 </p>
+                 </div>
+    
+                 </div>
+                 <br>
+                 <br>
+                  This is helpful for understanding that static positioning is by default. The divs with the content, and the actual output of the content, are layed out exactly like the workflow of the html code.
+                 <br>
+                 <br>
+                 <br>
+                 <br> -->
+                 <div class="reltitlefixed">Fixed</div>
+                 <br>
+                 <br>
+    
+                 <div class="fixedpara">Fixed positioning is similar to absolute but instead, parents itself to the over html page. So it does leave its initial workflow, though it becomes fixed to the position it is set too on the page. For instance giving it a top: 0; it will stay at the top of the page. Though it also stays wherever it’s position when scrolling through the page. So this would be good to say a banner that you want to show with navigation no matter when you scroll.
+
+                 </div> 
+                 <br>
+                 <br>
+                 <img src="images/fixed.JPG">
+                 <br>
+                 <br>
+                 Essentially it’s like absolute, though it stays in its position even if you try to scroll away from it. 
+                 <br>
+                 <br>
+                 <img src=>
+                 <br>
+                 
+    
+                 CSS: .one { position: fixed; top: 0; right: 50px;}
+                 <br>
+                 <br>
+                 Noticed the Fixed title, it's not fixed. It's sticky which is another position that can be explained later. But for effect it shows the fixed position. :^)
+                <br>
+                <br>
+                IGNORE THIS TEXT ↓
+                <br>
+                
+
+                <br>
+                <div class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </div>
+            </p>
+
+
+        </div>
+        
+
+
+        </div>
+
+
+
+
+    </div>
+    
+  
+
+  
+
+  </div>
+ 
+  </body>
+</html>
