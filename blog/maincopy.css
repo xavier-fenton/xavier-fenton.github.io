@@ -63,6 +63,10 @@ body{
    top: 205px;
   }
 
+  .techblogtitle{
+margin: 40px;
+  }
+
 /*========= 
   4.WRITING
   ===========*/ 
@@ -186,6 +190,9 @@ PARAGRAPH 2 AND ITS CONTENTS
   /*Drop down menu components*/
 
   /*BANNER AND ITS CHILDREN*/
+
+
+
 
   .banner{
     margin-bottom: 55px;
