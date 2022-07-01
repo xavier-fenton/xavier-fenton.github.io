@@ -1,6 +1,8 @@
 /*PLEASE EXCUSE THIS MESS OF A CSS STYLESSHEET */
-
-
+/* =======
+TAble of contents
+1.Main
+==========*/
 
 /*========
     1.MAIN 
@@ -190,6 +192,7 @@ body{
     position: static;
     max-width: 100%;
   }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -205,16 +208,16 @@ body{
       }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 1200px) {
   h1{
-    position: absolute;
+    position: static;
     }
   h2{
-      position: absolute;
+      position: static;
       }
 
   .intro{
-        position: absolute;
+        position: static;
       }
 }
 
