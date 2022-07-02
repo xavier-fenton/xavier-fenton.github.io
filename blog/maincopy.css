@@ -10,7 +10,7 @@ TAble of contents
   ========*/
 
 body{
-  margin: auto;
+  /* margin: auto; */
   margin-left: 50px;
   margin-right: 50px;
   background-color: #f2f2f2;
@@ -87,11 +87,13 @@ margin: 40px;
     font-weight: bold;
     color: rgb(255, 0, 0);
   }
+
 .explanation{
   /* position: absolute;
   top: 300px;
   left: 150px; */
  margin-top: 10px;
+ margin: -97px 50px 10px 50px;
 }
 .child1{
 background-color: cyan;
@@ -112,9 +114,14 @@ width: fit-content;
 
 .child3{
   position: relative;
-  top: 250px;
-  font-weight: bold;
-  /* width: 500px; */
+  top: 160px;
+  /* font-weight: bold; */
+  width: 665px;
+  max-width: 100%;
+  padding-left: 50px;
+}
+.child3-0{
+font-weight:bold ;
 }
 
 /* ========
@@ -141,6 +148,7 @@ PARAGRAPH AND ITS CONTENTS
   font-weight: bold;
   text-decoration: underline;
   font-family: 'Courier New', Courier, monospace;
+  position: relative;
 }
 .reltitlefixed{
   font-size: 50px;
@@ -301,17 +309,24 @@ PARAGRAPH 2 AND ITS CONTENTS
 
 
 @media screen and (max-width: 320px) {
+  /* body{
+    max-width: 100%;
+  } */
   h1{
-  position: static;
+  /* position: static; */
   }
   h2{
     position: static;
     }
   .intro{
-    position: static;
-    max-width: 100%;
-  }
+    /* position: relative;
+    max-width: 100%; */
 
+  
+  }
+  .banner{
+    margin-left: 1px;
+  }
   }
 
 
@@ -353,15 +368,7 @@ PARAGRAPH 2 AND ITS CONTENTS
 }
 /*^ THIS MEDIA QUERY IS JUST FOR PERCAUTION*/
 
-/*still wrapping my head aroung media queries
-@media screen and (min-width: 320px) {
-}
-@media screen and (min-width: 768px) {
-}
-@media screen and (min-width: 1200px) {
-}
-I feel that my page isnt content rich yet, so when i do a responsive check in dev tools, it looks okay to me. I'd appreciate feedback if anyone has any.
-*/
+
 
 
 
