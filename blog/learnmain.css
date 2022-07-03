@@ -1,0 +1,94 @@
+
+/* =======
+TAble of contents
+1.Main
+==========*/
+
+
+/*========
+    1.MAIN 
+  ========*/
+
+body{
+  /* margin: auto;
+   margin-left: 50px;
+  margin-right: 50px; */
+  background-color: #f2f2f2;  
+  poistion: static; 
+  font-family: 'M PLUS 1 Code', sans-serif; 
+  } *
+
+/*========
+    2.Content 
+  ========*/
+
+.content{
+  margin: 50px 330px 20px 330px;
+}
+  
+
+
+ /*========
+    Nav Bar 
+  ========*/
+
+  .banner{
+    margin-bottom: 55px;
+    border: .5px solid black;
+    background-color: rgb(128, 128, 128);
+    height: 45.5px;
+    display: flex;
+    align-items: flex-start; 
+    
+  }
+  .navcontent{
+    /* display: none;
+    position: absolute; */
+    background-color: #f1f1f1;
+    /* min-width: 160px; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border: .5px solid black;
+    margin: 10px;
+    /* z-index: 1; */
+    text-align: left;
+    text-decoration: none;
+  }
+  /*a= any anchor?*/
+  a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 320px){
+  .content{
+    margin-left: 20px;
+   margin-right: 20px;
+  }
+}
+
+
+
+@media screen and (min-width: 768px){
+  .content{
+    margin-left: 20px;
+   margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .content{
+    margin: 50px 330px 20px 330px;
+  }
+    
+}
