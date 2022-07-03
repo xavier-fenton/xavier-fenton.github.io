@@ -47,7 +47,7 @@ body{
   3.HEADERS
   ===========*/
 
-  h1{
+  /* h1{
     position: absolute;
     left:243px;
     top: 200px;
@@ -57,7 +57,7 @@ body{
    position: absolute;
    left: 1220px;
    top: 205px;
-  }
+  } */
 
 /*========= 
   4.WRITING
@@ -84,19 +84,36 @@ body{
     background-color: rgb(128, 128, 128);
     height: 45.5px;
     display: flex;
-    align-items: flex-start;
+    /* align-items: flex-start; */
+    margin: 10px;
     
   }
-  .file{
+  /* .file{
     color: #f2f2f2;
     text-align: center;
+  } */
+
+  .navcontent{
+    /* display: none;
+    position: absolute; */
+    background-color: #f1f1f1;
+    /* min-width: 160px; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border: .5px solid black;
+    margin: 10px;
+    /* z-index: 1; */
+    text-align: left;
+    text-decoration: none;
   }
-
-
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+}
 
   /*This is the code for the dropdown menu, try switching some of the Html so this can happen in your header tab*/
 
-  .dropdown{
+  /* .dropdown{
     list-style: none;
   }
   ul:hover {
@@ -132,7 +149,10 @@ body{
     z-index: 1;
     text-align: left; /* with my understanding of position i can move this to look how i want now! */
   }
+
   
+    /* z-index: 1;} */
+/*   
   .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -156,7 +176,7 @@ body{
     background-color: #b5bbb8;
     border: .2px solid black;
     box-shadow: inset 4px 6px 7px -5px rgba(0,0,0,1);
-  }
+  } */ */
 
   /* End of drop down menu css code*/
 
