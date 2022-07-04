@@ -31,6 +31,7 @@ body{
  .gif{
     display: flex;
     justify-content: center;
+    
     }
 
    /* responive design ps:i thought i knew how to do something but i didnt.*/
@@ -201,9 +202,12 @@ a:-webkit-any-link {
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
   h1{
   position: static;
+  border: solid 2px;
+  border-style: dashed;
+  display: inline-block;
   }
   h2{
     position: static;
@@ -212,37 +216,58 @@ a:-webkit-any-link {
     position: static;
     max-width: 100%;
   }
+  /*made 4th july 22*/
+  body{
+    background-color: rgb(209, 216, 218);
+  }
+ 
+  }
 
-}
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   h1{
     position: static;
+    border: none;
+    
     }
     h2{
       position: static;
+      border: solid 2px;
+      border-style: dashed;
+      display: inline-block;
+  
       }
       .intro{
         position: static;
         max-width: 100%;
       }
+      /*made 4th july 22*/
+      body{
+        background-color: rgb(252, 220, 220);
+      }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
   h1{
     position: static;
+    text-decoration: underline;
     }
   h2{
       position: static;
+      border:none;
       }
 
   .intro{
         position: static;
       }
+      /*made 4th july 22*/
+ body{
+  background-color: #f2f2f2;
+ }
 }
 
 /* THIS MEDIA QUERY IS JUST FOR PERCAUTION*/
-@media screen and (max-width: 769px) {
+/* @media screen and (max-width: 769px) {
   h1{
     position: static;
     }
@@ -250,7 +275,7 @@ a:-webkit-any-link {
       position: static;
       }
 
-}
+} */
 /*^ THIS MEDIA QUERY IS JUST FOR PERCAUTION*/
 
 /*still wrapping my head aroung media queries
