@@ -80,7 +80,7 @@ body{
 
   /*BANNER AND ITS CHILDREN*/
 
-  .banner{
+  #banner{
     border: .5px solid black;
     background-color: rgb(128, 128, 128);
     height: 45.5px;
