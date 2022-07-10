@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Emotional-Intelligence</title>
+    <title>JAVASCRIPT TECH</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="learnmain.css" type="text/css">
@@ -31,29 +31,113 @@
     </header>
     <div>
       <div class="content">
-     <h1>JS TECH</h1>
+     <h1>INTRO TO JAVASCRIPT</h1>
      <br>
      <br>
      <br>
-     <h2>What is Emotional Intelligence?</h2>
+     <h2>An analogy to describe JavaScript and its relationship to HTML and CSS:</h2>
      
      <p>
-      Emotional Intelligence is being consciously aware of oneself. The ability to be aware of your own actions either that being, when you become happy, what makes you happy and how does it make you happy? It can apply to any emotion, even being angry and how do you know that you are. How do you regulate yourself when feeling this particular way? It’s really about being aware of what's happening within yourself, and how you relate that to your world, or situations. Becoming present in the moment. 
-      This also applies to how you feel towards others, and how you react to them. Our reaction should be clear and responsive,we should be adaptive to ourselves and others in any particular situation.
-      The ability to be able to experience the moment with a non-judgmental reaction, simply being able to notice.
-      
+      When thinking about a webpage, we could picture a house. What a house needs is a structure, we can refer to this structure as the HTML. But how do you make your house look good? You have your wall’s that make your rooms. But you need color, you need decoration. This is the job of CSS, the CSS is doing all the styling and making your house come to life (but not fully, we need function). For a house or a webpage to have a cohesive function, we can use JavaScript. JavaScript is like electricity, the ‘doing’ actions in the house. A house isn’t fully functional till we have JavaScript. How does the lights turn on, you have to click them and a function happens. Like JavaScript you can create scripts to make your webpage more functional. We can make the webpage more interactive, functional, and easier for users to interact with our page.
+      <br>
+      <br>
+      <br>
+      <p>Though when thinking about this analogy you have to think of each component as a file:</p>
+      <br>
+      <img src="images/structure.png" alt="Document Structure" height="400px">
+      <br>
+      <br>
+      <br>
      </p>
      
-      <h2>How is it different from IQ? </h2>
+      <h2>Explain control flow and loops using an example process from everyday life, for example, 'waking up' or 'brushing your teeth' (but not those):</h2>
       <p>
-        IQ is like being technically sound in what you can do, like being good at HTML or CSS. But doesn’t necessarily mean you are attuned with being Emotionally Intelligent. With IQ you can be great at something, but are you great at teaching your practice to others, are you great at sharing what you know with others, without it being a pain to do so. 
+        By default JavaScript executes code from top to bottom, though with control flow we can change this. Control Flow allows us to make logical decisions of when to execute code by using conditionals and loops. With loops we make decisions using less code for repetitive tasks, the loop can go through compiled information till it reaches what we are wanting. A conditional statement would be something like a question with two possible answers. Do you feel like coding? Yes or No? Each answer would be coded to either set you off to a new task, when making a decision it will either run the code for ‘Yes’ or the code for ‘No’. 
       <p>
-     <h2>Why is it important?</h2>
+     <h2>Describe what the DOM is and an example of how you might interact with it.</h2>
      <p>
-      If you feel that you’re better at something like coding then someone else then, you’re not really creating an open environment of your practice. Coding is something anyone can learn, and I have said that to many people, it’s really about being determined, it’s really hard for myself to learn but I am doing it. And I like to share that with people. Being able to distinguish what you are doing is hard, but you are determined to do it.  If you are able to share to someone about tackling a difficult task in a matter which makes them feel comfortable, you engage them to really be motivated to complete it. Like the saying “If you can do it, I can do it”. But flipping it: “If I can do it, you can definitely do it”. Emotional Intelligence is important because of the motivation you may offer to others.
+      The Document Object Model, generally abbreviated to DOM, is the way through which JavaScript interacts with content within a website.
+      <br>
+      <br>
+      The DOM represents the HTML as a tree structure.
+      <br>
+      <br>
+      <img src="images/domstructure.png" alt="The DOM Structure" height="400px" width="400px">
+      <br>
+      <br>
+      The Dom uses an interactive web interface to use commands from JavaScript. It has the ability to change the document structure, style and content.  The DOM can be easily accessed on a webpage by anyone; through the inspect button when you right click a page. But with JavaScript we can add new things without hardcoding into our HTML, or CSS files. This would be considered manipulating the DOM. A brief example could be that if you have a blank HTML file; with JavaScript we could add content like a header and some paragraphs by interacting with the DOM without touching our HTML. Well it’s like another way of adding elements to your files. 
+      <br>
+      <br>
+      <br>
+      But this has the potential of so many things. Say someone clicks a button that we’ve scripted that can randomly generate new content on our  webpage. Like our title changes from “Hello World” to “Hello Everyone”, without touching the HTML file. Or the button changes the background colour to some random colour than the original. JavaScript allows much more to a webpage to be so interactive, or have a user-friendly flow to the page.
      </p>
+      <h2>Explain the difference between accessing data from arrays and objects:
+      </h2>
+      <p>
+        With objects in JS with essentially give variables properties say:
+      </p>
       
+      
+      <p>
+        Var John Doe = {
+          <br>
+          Age: 25;
+          <br>
+          Hair-colour: Black;
+          <br>
+          Height: 176cm; 
+          <br>
+          }
+          <br>
+          <br>
+          All the properties like age, hair-colour and height are assigned to John Doe.  To access them would require plenty of code for each individual property, creating a whole bunch of strings that will seem impossible to navigate overtime. For instance this is a short example of the properties, but what if we had plenty more, like where John Doe lives, when was he born, what's his occupation and more. This is when it would become so confusing to navigate and access specific data types. 
+      </p>
+      <p>With Arrays we are able to store data much easier for variables and it becomes much easier to access:</p>
+      <p> 
+        var popSongs = [‘hello’, ‘world’, ‘LOVE’, ‘chicken dance’]
+      </p>
+      <p>Though array indexes start from [0] to identify what's in the array, for instance; hello will be assigned to [0], chicken dance would be [3]. But we see four pieces of data, that’s just how computers see and order the list of data.  To access a piece of data we would code:
+        <p>
+        Let songChoice = popSongs [1];
+      </p>
+        When we console log this we should see ‘world’.
+        <br>
+        <br>
+        Use  this resource for a better understanding :’^D (because  i need to).
+        <br>
+        
+        <a href="https://www.w3schools.com/js/js_arrays.asp">:w3schools JS Arrays</a>
+        <br>
+        <a href="https://www.w3schools.com/js/js_objects.asp">:w3schools JS Objects</a>
+      </p>
+      <h2>Explain what functions are and why they are helpful:</h2>
+      <p>
+        I see functions as being one of many tools to be a very important part in JS, with functions we basically are telling the computer to perform a task. Breaking down functions is useful. 
+      </p>
+      <h3> 
+        Function declaration (naming a function):
+      </h3>
+      <p>
+       <span> function greetings (name)</span><!-- add high-lighting to 'function greetings'-->{
+          <br>
+          console.log(‘Hello ‘ + name);<!-- add high-lighting-->
+          <br>
+          } 
+          <br>
+          <br>
+          We call our functions with console.log to let it output “Hello name”. But with will only see "Hello". Because calling requires an argument which refers to the parentheses of our function.
+          <br>
+          <br>
+          greetings(‘Xavier’)<!-- add high-lighting-->
+          <br>
+          <br>
+          We should see an output of “Hello Xavier”. I tend to see functions and commands within JS as connecting the dots. For instance within the parentheses of our function declaration is name which is the parameter we are referring to, and our argument when calling our function is Xavier. This is helpful for reusing such a function we can add more parameters to our function declaration to make a long string like: “Hello Xavier Fenton”, functions allow us to make more logical use of code.
+           
 
+
+      </p>
+
+    
   
   
      
