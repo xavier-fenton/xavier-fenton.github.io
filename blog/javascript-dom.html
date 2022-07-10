@@ -79,28 +79,41 @@
       
       
       <p>
-        Var John Doe = {
+        const person = {
           <br>
-          Age: 25;
+          firstName: "John",
           <br>
-          Hair-colour: Black;
+          lastName: "Doe",
           <br>
-          Height: 176cm; 
+          age: 22, 
           <br>
-          }
+          };
           <br>
           <br>
-          All the properties like age, hair-colour and height are assigned to John Doe.  To access them would require plenty of code for each individual property, creating a whole bunch of strings that will seem impossible to navigate overtime. For instance this is a short example of the properties, but what if we had plenty more, like where John Doe lives, when was he born, what's his occupation and more. This is when it would become so confusing to navigate and access specific data types. 
+          console.log ('hello' + ' ' + person.firstName)
+          Output: hello John
+          <br>
+          <br>
+          console.log ('hello ' + person.firstName + ' your hair color is: ' + person.hairColour)
+          <br>
+          <br>
+          Output: hello John your hair colour is: black.
+          <br>
+          <br>
+          This can be used for a variety of things, and we can reuse the code which is really good for organization, and not having to create so much code.  All the keys/properties/ variables with a variable are all within our curly brackets and these are specific to specificPerson.
       </p>
-      <p>With Arrays we are able to store data much easier for variables and it becomes much easier to access:</p>
+      <p>With Arrays we are able to store data much easier for variables as well. This is very similar to objects, though specific content is better for arrays. With Arrays I'd say are better for handling things such as numbers like scores for a game.
+      </p>
       <p> 
-        var popSongs = [‘hello’, ‘world’, ‘LOVE’, ‘chicken dance’]
+        const scores = [31, 5, 23, 56, 42, 76]
       </p>
-      <p>Though array indexes start from [0] to identify what's in the array, for instance; hello will be assigned to [0], chicken dance would be [3]. But we see four pieces of data, that’s just how computers see and order the list of data.  To access a piece of data we would code:
+      <p>Though array indexes start from [0] to identify what's in the array, for instance the number 31 will be assigned to [0], 56 would be [3].
+
         <p>
-        Let songChoice = popSongs [1];
+          console.log(scores[3]
+          <br>
+          output: 56
       </p>
-        When we console log this we should see ‘world’.
         <br>
         <br>
         Use  this resource for a better understanding :’^D (because  i need to).
@@ -112,26 +125,30 @@
       </p>
       <h2>Explain what functions are and why they are helpful:</h2>
       <p>
-        I see functions as being one of many tools to be a very important part in JS, with functions we basically are telling the computer to perform a task. Breaking down functions is useful. 
+        I see functions as being one of many tools to be a very important part in JS, with functions we basically are telling the computer to perform a task. Breaking down functions is useful. Function declaration (naming a function) 
       </p>
-      <h3> 
-        Function declaration (naming a function):
-      </h3>
+      
       <p>
-       <span> function greetings (name)</span><!-- add high-lighting to 'function greetings'-->{
-          <br>
-          console.log(‘Hello ‘ + name);<!-- add high-lighting-->
-          <br>
-          } 
+       const greatWelcomeMessage = 'Hey there! You look amazing'  
           <br>
           <br>
-          We call our functions with console.log to let it output “Hello name”. But with will only see "Hello". Because calling requires an argument which refers to the parentheses of our function.
+          function welcome(){  
+          <br>
+           console.log(greatWelcomeMessage)
+          <br>
+          }
           <br>
           <br>
-          greetings(‘Xavier’)<!-- add high-lighting-->
+          welcome()    
           <br>
           <br>
-          We should see an output of “Hello Xavier”. I tend to see functions and commands within JS as connecting the dots. For instance within the parentheses of our function declaration is name which is the parameter we are referring to, and our argument when calling our function is Xavier. This is helpful for reusing such a function we can add more parameters to our function declaration to make a long string like: “Hello Xavier Fenton”, functions allow us to make more logical use of code.
+          —calling welcome should output: “Hey there! You look amazing
+          <br>
+          <br>
+          I tend to see functions and commands within JS as connecting the dots. For variables, parentheses, arguments. We could apply these function concept logix to a plentiful amount of ideas for web pages.
+          <br>
+          <br>
+          <br>
            
 
 
@@ -160,7 +177,7 @@
 
 
 
-  
+  <a href="#top">Back to top</a>
   </body>
 
 </html>
