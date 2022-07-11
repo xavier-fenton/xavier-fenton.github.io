@@ -60,8 +60,25 @@ body{
     text-decoration: none;
 }
 
+/*============
+      WORDS
+============*/
 
+.neuroTitle{
+  text-decoration: underline;
+  text-align: center;
+}
 
+.growthTitle{
+  text-decoration: underline;
+  text-align: center;
+}
+
+.introNeuro{
+  width: 630px;
+  text-align: center;
+  margin-left: 305px;
+}
 
 
 
