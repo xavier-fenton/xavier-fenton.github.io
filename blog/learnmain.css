@@ -75,9 +75,9 @@ body{
 }
 
 .introNeuro{
-  width: 630px;
+  /* width: 630px; */
   text-align: center;
-  margin-left: 305px;
+  /* margin-left: 305px; */
 }
 
 
@@ -91,6 +91,10 @@ body{
   .content{
     margin-left: 20px;
    margin-right: 20px;
+  }
+  .introNeuro{
+    max-width: 100%;
+    margin-left: auto;
   }
 }
 
